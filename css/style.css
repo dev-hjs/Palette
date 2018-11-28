@@ -1,0 +1,252 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', cursive, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*top_banner*/
+.popContents {
+    background: url(https://t1.daumcdn.net/brunch/static/img/banner/pc_weekly_open_bg.png)center center;
+    height: 60px;
+}
+
+.popContents p.tit {
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+
+/*top_banner*/
+
+.jbTitle {
+    font-family: 'Nanum Pen Script';
+    font-size: 25px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.jbTitle h1::after {
+    content: " ";
+    position: absolute;
+    background: url(../images/palette.png)center center no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.jbMenu {
+    position: relative;
+    text-align: center;
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 50px;
+}
+
+.jbMenu ul {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.jbMenu ul li {
+    float: left;
+}
+
+.jbMenu ul li a {
+    display: inline-block;
+    width: 235px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+.jbContent {
+    margin: 0 auto;
+    width: 960px;
+    min-height: 300px;
+}
+
+.contents {
+    position: relative;
+    background: url(../images/bg.jpg)center center;
+    height: 300px;
+}
+
+.contents>span {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-image: url('../images/snow1.png'), url('../images/snow3.png'), url('../images/snow2.png');
+
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+}
+
+/*Keyframes*/
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-moz-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-webkit-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    50% {
+        background-color: #b4cfe0;
+    }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        background-color: #6b92b9;
+    }
+}
+
+@-ms-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+
+
+.jbContent p {
+    font-family: 'Nanum Pen Script';
+    line-height: 46px;
+}
+
+.jbContent p:nth-child(1) {
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+
+.jbContent p:nth-child(2) {
+    font-size: 32px;
+    font-weight: 400;
+    color: #cacaca;
+}
+
+.jbContent p:nth-child(3) {
+    font-size: 30px;
+    font-weight: 400;
+    color: #cacaca;
+}
+
+.jbContent p:nth-child(4) {
+    font-size: 28px;
+    font-weight: 400;
+    color: #cacaca;
+}
+
+.jbFixed {
+    position: fixed;
+    top: 0px;
+}
+
+
+/*footer*/
+footer {
+    background: #101010;
+    width: 100%;
+    height: 300px;
+}
+
+footer .inner_foot {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+}
+
+footer .inner_foot .area_quotation {
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+
+footer .inner_foot .ico_dosirak {
+    background: url(../images/palette.png)center center no-repeat;
+    background-size: 100%;
+    padding-top: 35px;
+    width: 32px;
+    height: 32px;
+}
+
+footer .inner_foot .txt_dosirak {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+}
+
+footer .inner_foot .txt_by {
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 11px;
+    color: #bfbfbf;
+    opacity: 0.8;
+}
+
+footer .foot_list {
+    float: left;
+    margin-top: 70px;
+    width: 460px;
+}
+
+footer .foot_list li {
+    float: left;
+    margin-bottom: 15px;
+    width: 200px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #d9d9d9;
+}
+
+footer .foot_list2 {
+    float: left;
+    margin-top: 70px;
+    color: #fff;
+}
+
+footer .foot_list2 li {
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #d9d9d9;
+}
