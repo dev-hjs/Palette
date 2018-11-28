@@ -147,6 +147,7 @@ a {
 
 .jbContent p {
     font-family: 'Nanum Pen Script';
+    text-align: center;
     line-height: 46px;
 }
 
@@ -184,9 +185,40 @@ a {
 
 
 /*section*/
-section > article { margin:0 auto; width:960px; }
-.link_writers { display:inline-block; margin:0 0.4% 2%; width:32%;  height:300px; border:1px solid #d3d3d3; }
+section>article {
+    margin: 0 auto 100px;
+    width: 960px;
+}
 
+.link_writers {
+    display: inline-block;
+    margin: 0 0.4% 2%;
+    width: 32%;
+    height: 300px;
+    border: 1px solid #d3d3d3;
+}
+
+.link_writers img {
+    display: block;
+    margin: 40px auto;
+}
+
+.link_writers .tit_wirter {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link_writers .team_writer {
+    margin: 10px 0;
+}
+
+.link_writers span {
+    display: block;
+    margin: 0 20px;
+    font-size: 13px;
+    text-align: center;
+}
 
 /*footer*/
 footer {
