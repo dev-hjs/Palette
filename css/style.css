@@ -199,8 +199,10 @@ section>article {
 }
 
 .link_writers img {
+    overflow: hidden;
     display: block;
     margin: 40px auto;
+    border-radius:50%;
 }
 
 .link_writers .tit_wirter {
