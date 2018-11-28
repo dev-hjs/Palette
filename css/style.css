@@ -181,6 +181,13 @@ a {
 }
 
 
+
+
+/*section*/
+section > article { margin:0 auto; width:960px; }
+.link_writers { display:inline-block; margin:0 0.4% 2%; width:32%;  height:300px; border:1px solid #d3d3d3; }
+
+
 /*footer*/
 footer {
     background: #101010;
